@@ -1,6 +1,6 @@
 [package]
 name = "libtest-with"
-version = "0.8.1-13"
+version = "0.8.1-14"
 authors = ["Lukas Kalbertodt <lukas.kalbertodt@gmail.com>", "Antonio Yang <yanganto>"]
 edition = "2021"
 rust-version = "1.74.0"  # due to clap v4.5.23
@@ -26,7 +26,7 @@ anstream = "0.6.14"
 anstyle = "1.0.7"
 
 reqwest = { version = "0.13", features = ["blocking"], optional = true }
-ping = { version = "0.7.1-beta", optional = true }
+ping = { version = "0.7.1", optional = true }
 sysinfo = { version = "0.38", optional = true }
 byte-unit = { version = "5.1", optional = true }
 num_cpus = { version = "1.16", optional = true }
