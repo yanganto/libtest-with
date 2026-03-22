@@ -1,6 +1,6 @@
 [package]
 name = "libtest-with"
-version = "0.8.1-14"
+version = "0.8.1-14+deprecated"
 authors = ["Lukas Kalbertodt <lukas.kalbertodt@gmail.com>", "Antonio Yang <yanganto>"]
 edition = "2021"
 rust-version = "1.74.0"  # due to clap v4.5.23
